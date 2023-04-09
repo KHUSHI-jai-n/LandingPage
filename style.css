@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(238, 235, 235);
+    font-family: 'DM Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Tilt Warp', cursive;
+    color: rgb(247, 92, 118);
+    text-align: center;
+    font-size: 7rem;
+    padding-top: 5px;
+}
+
+.hline {
+    width: 90%;
+    border-width: 0.2rem;
+    margin: auto;
+}
+
+.navbar-brand {
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+}
+
+.pricing {
+    left: 93%;
+    position: absolute;
+}
+
+.p1 {
+    padding: 5% 0 2% 5%;
+    font-size: 1.3rem;
+}
+
+.btn {
+    margin: 0.5%;
+    color: white;
+    background-color: rgb(105, 105, 105);
+}
+
+.btn:hover {
+    background-color: white;
+    color: #000;
+}
+
+.icon {
+    color: rgb(247, 92, 118);
+    position: relative;
+    right: 2%;
+}
+
+#books {
+    position: absolute;
+    top: 25%;
+    right: 40%;
+    width: 70%;
+}
+
+.content {
+    position: absolute;
+    font-size: large;
+    top: 35%;
+    left: 60%;
+    padding: 5%;
+}
+
+.hline2 {
+    width: 150%;
+    border-width: 0.2rem;
+}
+
+.percentage {
+    font-family: 'Tilt Warp', cursive;
+    color: rgb(247, 92, 118);
+}
+
+@media (max-width: 1028px) {
+    #books {
+        position: static;
+        width: 90%;
+        margin-top: -15%;
+        margin-bottom: -15%;
+    }
+    .icon {
+        padding-left: 5%;
+    }
+    .content {
+        position: static;
+        width: 100%;
+        text-align: center;
+    }
+    .hline2 {
+        width: 100%;
+    }
+}
